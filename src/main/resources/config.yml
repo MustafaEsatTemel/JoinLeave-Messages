@@ -1,0 +1,8 @@
+#Use this placeholder for getting player name "%player%"
+# %player% -> Returns player name.
+#Config reload command "reloadjlm"
+#Config reload permission "reload.jlm"
+
+First-Join-Message : "&e%player% &6first time joined the server. &aWelcome ! "
+Has-Played-Before : "&aWelcome back &e%player%. &bI hope you enjoy."
+Quit-Leave-Message : "&e%player% &6leaved from the server. &bI hope it comes again."

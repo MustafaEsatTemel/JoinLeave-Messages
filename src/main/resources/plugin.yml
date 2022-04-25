@@ -1,0 +1,16 @@
+name: JoinLeaveMessages
+version: '${project.version}'
+main: tr.mustafaesattemel.joinleavemessages.JoinLeaveMessages
+authors: [ MustafaEsatTemel ]
+description: Change minecraft default join leave messages with using this plugin.
+commands:
+  reloadjlm:
+    description: Reload config.
+    aliases: rjlm
+    permission: reload.jlm
+    permission-message: You don't have permission.
+    usage: /<command>
+permissions:
+  reload.jlm:
+    description: Allows reload config command.
+    default: op
